@@ -8,8 +8,8 @@ decoder:
     model : /opt/models/exp/nnet2_online/final.mdl
     word-syms : /opt/models/exp/nnet2_online/graph/words.txt
     fst : /opt/models/exp/nnet2_online/graph/HCLG.fst
-    #mfcc-config : /opt/models/exp/nnet2_online/conf/mfcc.conf
-    #ivector-extraction-config : /opt/models/exp/nnet2_online/conf/ivector_extractor.conf
+    mfcc-config : /opt/models/conf/mfcc.conf
+    ivector-extraction-config : /opt/models/conf/ivector_extractor.conf
     max-active: 10000
     beam: 10.0
     lattice-beam: 6.0
